@@ -1,11 +1,19 @@
+//import Buttons from "./Components/Buttons";
+import Grid from "./Components/Grid";
+import Navbar from "./Components/Navbar";
+import Titulos from "./Components/Titulos";
 
 function App() {
 
 
   return (
-    <>
-     <p className="text-3xl text-red-700 font-bold underline">Portafolio personal</p>
-    </>
+  
+      <div className="relative bg-background  min-h-screen overflow-hidden">
+   <Navbar/>
+  <Grid />
+  <Titulos />
+ {/* <Buttons/> */} 
+   </div>
   )
 }
 

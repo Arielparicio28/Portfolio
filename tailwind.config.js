@@ -8,12 +8,28 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'fondo-pantalla': "url('fondo_pantalla.jpg')",
-      },
-      variables: {
-        '--index': 'calc(1vw + 1vh)',
-      },
+      colors: {
+        text: 'hsl(0, 0%, 99%)',
+        textDim: 'hsl(0, 0%, 60%)',
+        background: 'hsl(0, 0%, 7%)',
+        primary: {
+          DEFAULT: 'hsl(155, 100%, 65%)',
+          bg: 'hsla(155, 100%, 65%, 1%)',
+          hi: 'hsla(155, 100%, 75%, 25%)',
+          fg: 'hsl(155, 100%, 85%)',
+        },
+        secondary: {
+          DEFAULT: 'hsl(156, 51%, 14%)',
+          fg: 'hsl(156, 51%, 75%)',
+          bg: 'hsla(156, 51%, 14%, 5%)',
+          hi: 'hsla(156, 51%, 30%, 50%)',
+        },
+        accent: {
+          DEFAULT: 'hsl(155, 100%, 94%)',
+          bg: 'hsla(155, 100%, 94%, 1%)',
+          hi: 'hsla(155, 100%, 100%, 25%)',
+        },
+      }, 
     },   
     screens: {
       'md': '769px',
@@ -31,7 +47,8 @@ export default {
     },
 
     fontFamily:{
-      font:[ "Dancing Script", "cursive"]
+      font:[ "Dancing Script", "cursive"],
+      manrope: ["Manrope", "sans-serif"],
     },
     
     keyframes: {
