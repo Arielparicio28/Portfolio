@@ -1,20 +1,31 @@
-//import Buttons from "./Components/Buttons";
-import Grid from "./Components/Grid";
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
-import Titulos from "./Components/Titulos";
+import Projects from "./Pages/Projects";
+import Home from './Pages/Home';
 
 function App() {
 
 
   return (
+    <>
+    <Router>
+     
+        <Navbar />
+        <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          {/* Puedes agregar más rutas aquí */}
+        </Routes>
   
-      <div className="relative bg-background  min-h-screen overflow-hidden">
-   <Navbar/>
-  <Grid />
-  <Titulos />
- {/* <Buttons/> */} 
-   </div>
+    </Router>
+       
+    </>
   )
 }
 
 export default App
+
+
+/*     <Route path="/children" element={<Children />} /> */
+
