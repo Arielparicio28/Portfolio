@@ -1,3 +1,5 @@
+
+
 const Titulos = () => {
     return (
       <div className="flex flex-col justify-center items-center absolute inset-0 text-6xl md:text-8xl font-bold tracking-tight z-10 text-center">
