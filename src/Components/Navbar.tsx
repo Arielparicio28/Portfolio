@@ -77,8 +77,8 @@ const Navbar: React.FC = () => {
         <Link to="" className="hover:text-primary block lg:inline">
           Microsoft Components
         </Link>
-        <Link to="" className="hover:text-primary block lg:inline">
-          About Me
+        <Link to="certificates" className="hover:text-primary block lg:inline">
+         Certificates
         </Link>
       </div>
 
