@@ -68,6 +68,9 @@ const Navbar: React.FC = () => {
           menuOpen ? 'block' : 'hidden'
         }`}
       >
+          <Link to="/" className="hover:text-primary block lg:inline">
+       <img src="casa2.png" alt="Home" className='w-8 h-8' /> 
+        </Link>
         <Link to="projects" className="hover:text-primary block lg:inline">
           Freelance Projects
         </Link>
