@@ -4,9 +4,19 @@ import { useState } from "react";
 const Certificates = () => {
   // Lista de certificados con títulos y rutas a los archivos PDF
   const certificates = [
-    { title: "Certificado - P7 850h mixta BCN", url: "p7.pdf" },
-    { title: "Certificado - Javascript", url: "javascript_basic certificate.pdf" },
-    { title: "Certificado 3", url: "/certificates/certificado3.pdf" },
+
+    { title: "Google: Inteligencia Artificial y productividad", url: "IAcertificate.pdf" },
+    { title: "P7 850h mixta BCN", url: "p7.pdf" },
+    { title: "Pyhton", url: "python.pdf" },
+    { title: "Javascript", url: "javascript_basic certificate.pdf" },
+    { title: "MongoDB Transactions", url: "transaction.pdf" },
+    { title: "MongoDB Indexes", url: "indexes.pdf" },
+    { title: "MongoDB Aggregation", url: "agregation.pdf" },
+    { title: "MongoDB CRUD Operations: Replace and Delete", url: "crud.pdf" },
+    { title: "MongoDB CRUD Operations: Insert And Find", url: "Insertandfind.pdf" },
+    { title: "MongoDB Atlas Search", url: "atlasSearch.pdf" },
+    { title: "MongoDB Data Modeling", url: "datamodeling.pdf" },
+    { title: "Microsoft Certified: Power Platform Fundamentals", url: "power.png" },
   ];
 
   // Estado para manejar el certificado actualmente seleccionado
@@ -15,8 +25,8 @@ const Certificates = () => {
   );
 
   return (
-    <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">Mis Certificados</h1>
+    <div className="container mx-auto p-6 h-screen bg-black">
+      <h1 className="text-3xl font-bold mb-6 text-gray-800">Certificates</h1>
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Lista de certificados */}
         <div className="lg:w-1/3 space-y-4">

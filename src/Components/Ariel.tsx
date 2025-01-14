@@ -15,7 +15,7 @@ export default function Ariel() {
             isBordered
             as="button"
             className="transition-transform"
-            src="/ariel.svg"
+            src="/Kanban.jpg"
           />
         </DropdownTrigger>
         <DropdownMenu aria-label="Profile Actions" variant="faded">
