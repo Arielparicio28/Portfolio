@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
         <Link to="" className="hover:text-primary block lg:inline">
           Power Apps Projects
         </Link>
-        <Link to="" className="hover:text-primary block lg:inline">
+        <Link to="components" className="hover:text-primary block lg:inline">
           Microsoft Components
         </Link>
         <Link to="certificates" className="hover:text-primary block lg:inline">

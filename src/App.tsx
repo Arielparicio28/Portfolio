@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Projects from "./Pages/Projects";
 import Home from './Pages/Home';
 import Certificates from './Pages/Certificates';
+import Microsoft_Component from './Pages/Microsoft_Component';
 
 function App() {
 
@@ -14,9 +15,10 @@ function App() {
      
         <Navbar />
         <Routes>
-        <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+        <Route path='/' element={<Home />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='/certificates' element = {<Certificates/>}/>
+          <Route path = '/components' element ={<Microsoft_Component/>}/>
           {/* agregar más rutas aquí */}
         </Routes>
   
