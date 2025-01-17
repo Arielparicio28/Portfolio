@@ -6,7 +6,7 @@ const Certificates = () => {
   const certificates = [
 
     { title: "Google: Inteligencia Artificial y productividad", url: "IAcertificate.pdf" },
-    { title: "P7 850h mixta BCN", url: "p7.pdf" },
+    { title: "Full-Stack 850h", url: "p7.pdf" },
     { title: "Pyhton", url: "python.pdf" },
     { title: "Javascript", url: "javascript_basic certificate.pdf" },
     { title: "MongoDB Transactions", url: "transaction.pdf" },
