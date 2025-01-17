@@ -57,7 +57,7 @@ const Certificates = () => {
             />
           ) : (
             <div className="flex items-center justify-center w-full h-[500px] border rounded-lg bg-gray-50 shadow-md">
-              <p className="text-gray-500 text-lg">Selecciona un certificado</p>
+              <p className="text-gray-500 text-xl text-center inline-block animate-typewriter overflow-hidden whitespace-nowrap">Select a Certificate</p>
             </div>
           )}
         </div>
