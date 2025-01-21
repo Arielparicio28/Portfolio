@@ -72,10 +72,7 @@ const Navbar: React.FC = () => {
        <img src="casa2.png" alt="Home" className='w-8 h-8' /> 
         </Link>
         <Link to="projects" className="hover:text-primary block lg:inline">
-          Freelance Projects
-        </Link>
-        <Link to="" className="hover:text-primary block lg:inline">
-          Power Apps Projects
+          Projects
         </Link>
         <Link to="components" className="hover:text-primary block lg:inline">
           Microsoft Components

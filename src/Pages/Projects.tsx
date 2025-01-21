@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
       video: "f5.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/CRM-V1/blob/main/README.md",
     },
-
+   
   ];
 
   return (

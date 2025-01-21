@@ -22,6 +22,14 @@ function Microsoft_Component() {
       video: "Login_Component.mp4", // Ruta al video de vista previa
       orientation: "vertical", // Indica que el video es vertical
     },
+    {
+      id: 3,
+      title: "Memory Game",
+      description:
+        "It is a memory game developed with Nest.js ,React,Mongo DB following the MVC view controller mode",
+      video: "game.mp4", // Ruta al video de vista previa
+      url: "https://github.com/Arielparicio28/Brascuba_Game",
+    },
   ];
 
   return (

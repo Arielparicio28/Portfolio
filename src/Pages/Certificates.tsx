@@ -4,7 +4,7 @@ import { useState } from "react";
 const Certificates = () => {
   // Lista de certificados con títulos y rutas a los archivos PDF
   const certificates = [
-
+    
     { title: "Google: Inteligencia Artificial y productividad", url: "IAcertificate.pdf" },
     { title: "Full-Stack 850h", url: "p7.pdf" },
     { title: "Pyhton", url: "python.pdf" },
