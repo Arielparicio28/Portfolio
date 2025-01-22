@@ -80,6 +80,9 @@ const Navbar: React.FC = () => {
         <Link to="certificates" className="hover:text-primary block lg:inline">
          Certificates
         </Link>
+        <Link to="cv" className="hover:text-primary block lg:inline">
+         CV
+        </Link>
       </div>
 
       {/* Componente Ariel */}
