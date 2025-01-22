@@ -1,14 +1,15 @@
 import { useState } from "react";
 
 
-const Certificates = () => {
-  // Lista de certificados con títulos y rutas a los archivos PDF
-  const certificates = [
-    { title: "CV", url: "cv.pdf" },
+const Cv = () => {
+  // Lista de cv y rutas a los archivos PDF
+  const cv = [
+    { title: "CV English Version", url: "cv_english.pdf" },
+    { title: "CV Spanish Version", url: "cv_spanish.pdf" },
   ];
 
-  // Estado para manejar el certificado actualmente seleccionado
-  const [selectedCertificate, setSelectedCertificate] = useState<string | null>(
+  // Estado para manejar el cv actualmente seleccionado
+  const [selectedCV, setSelectedCV] = useState<string | null>(
     null
   );
 
@@ -16,18 +17,18 @@ const Certificates = () => {
     <div className="container mx-auto p-6 h-screen bg-black">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">CV</h1>
       <div className="flex flex-col lg:flex-row gap-8">
-        {/* Lista de certificados */}
+        {/* Lista de CV */}
         <div className="lg:w-1/3 space-y-4">
           <ul className="bg-white shadow-md p-4 rounded-lg">
-            {certificates.map((cert, index) => (
+            {cv.map((cert, index) => (
               <li
                 key={index}
                 className={`p-3 rounded-lg cursor-pointer ${
-                  selectedCertificate === cert.url
+                  selectedCV === cert.url
                     ? "bg-primary text-white"
                     : "hover:bg-gray-100"
                 }`}
-                onClick={() => setSelectedCertificate(cert.url)}
+                onClick={() => setSelectedCV(cert.url)}
               >
                 {cert.title}
               </li>
@@ -37,9 +38,9 @@ const Certificates = () => {
 
         {/* Visor de PDF */}
         <div className="lg:w-2/3">
-          {selectedCertificate ? (
+          {selectedCV ? (
             <iframe
-              src={selectedCertificate}
+              src={selectedCV}
               className="w-full h-[500px] border rounded-lg shadow-md"
               title="Visor de Certificado"
             />
@@ -54,4 +55,4 @@ const Certificates = () => {
   );
 };
 
-export default Certificates;
+export default Cv;
