@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
       title: "CRM F5",
       description:
         "System developed with Nest.js, MongoDB, React to connect Factoría F5 with customers,optimize processes and improve profitability.",
-      video: "f5.mp4", // Ruta al video de vista previa
+      video: "crm_demo.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/CRM-V1/blob/main/README.md",
       orientation: "horizontal"
     },
