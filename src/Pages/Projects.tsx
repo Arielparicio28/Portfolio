@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
       title: "Recruiting App",
       description:
         "Simplifies hiring by tracking candidates, scheduling interviews, and automating tasks with Power Platform tools.",
-      video: "Recruting_demo.mp4", // Ruta al video de vista previa
+      video: "recruiting.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/Recruiting_PowerApps",
       orientation: "horizontal"
     },
