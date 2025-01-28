@@ -41,7 +41,33 @@ const Projects: React.FC = () => {
       url: "https://rankingrepo.netlify.app/",
       orientation: "horizontal"
     },
-   
+    {
+      id: 5,
+      title: "Recruiting App",
+      description:
+        "Simplifies hiring by tracking candidates, scheduling interviews, and automating tasks with Power Platform tools.",
+      video: "Recruting_demo.mp4", // Ruta al video de vista previa
+      url: "https://github.com/Arielparicio28/Recruiting_PowerApps",
+      orientation: "horizontal"
+    },
+    {
+      id: 6,
+      title: "Audit App",
+      description:
+        "Manages audits with Power Apps, Dataverse, and Power Automate, offering data centralization, workflows, and dynamic reports.",
+      video: "Auditoria_demo.mp4", // Ruta al video de vista previa
+      url: "https://github.com/Arielparicio28/Audit_PowerApps",
+      orientation: "horizontal"
+    },
+    {
+      id: 7,
+      title: "CRM App",
+      description:
+        "Manages clients and contacts, tracks activities, and integrates with Microsoft 365 for collaboration using Power Apps and Dataverse.",
+      video: "crm_demo1.mp4", // Ruta al video de vista previa
+      url: "https://github.com/Arielparicio28/CRM-Power-Apps",
+      orientation: "horizontal"
+    },
   ];
 
   return (
