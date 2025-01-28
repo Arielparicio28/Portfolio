@@ -46,6 +46,7 @@ const Projects: React.FC = () => {
 
   return (
     <div className="relative bg-black text-text w-full h-screen overflow-auto">
+       <h1 className="text-3xl font-bold mb-4  text-text text-center">Projects</h1>
       {/* Lista de proyectos */}
       <div className="flex flex-wrap items-center justify-center gap-10 p-8">
         {projects.map((project) => (

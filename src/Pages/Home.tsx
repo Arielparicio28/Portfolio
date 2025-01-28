@@ -1,15 +1,16 @@
 
+import Footer from "../Components/Footer"
 import Grid from "../Components/Grid"
 import Titulos from "../Components/Titulos"
 
 const Home = () => {
 
     return(
-        <div className="relative bg-background min-h-screen overflow-hidden">
+        <div className="relative min-h-screen overflow-hidden">
             
         <Grid />
         <Titulos />
-     
+        <Footer/>
     </div>
     )
     }

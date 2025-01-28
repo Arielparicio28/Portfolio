@@ -7,6 +7,7 @@ const Certificates = () => {
     { title: "Google: Inteligencia Artificial y productividad", url: "IAcertificate.pdf" },
     { title: "Full-Stack 850h", url: "p7.pdf" },
     { title: "Pyhton", url: "python.pdf" },
+    { title: "Java Basic", url: "java_basic.webp" },
     { title: "Javascript", url: "javascript_basic certificate.pdf" },
     { title: "MongoDB Transactions", url: "transaction.pdf" },
     { title: "MongoDB Indexes", url: "indexes.pdf" },
@@ -24,8 +25,8 @@ const Certificates = () => {
   );
 
   return (
-    <div className="container mx-auto p-6 h-screen bg-black">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">Certificates</h1>
+    <div className="container mx-auto p-6 h-min-screen bg-black">
+      <p className="text-3xl font-bold mb-6 text-text text-center">Certificates</p>
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Lista de certificados */}
         <div className="lg:w-1/3 space-y-4">

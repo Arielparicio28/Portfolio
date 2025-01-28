@@ -15,7 +15,7 @@ const Cv = () => {
 
   return (
     <div className="container mx-auto p-6 h-screen bg-black">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">CV</h1>
+      <p className="text-3xl font-bold mb-6 text-text text-center">CV</p>
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Lista de CV */}
         <div className="lg:w-1/3 space-y-4">

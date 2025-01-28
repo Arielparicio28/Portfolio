@@ -7,6 +7,7 @@ import Certificates from './Pages/Certificates';
 import Microsoft_Component from './Pages/Microsoft_Component';
 import Cv from './Pages/Cv';
 
+
 function App() {
 
 
@@ -23,7 +24,6 @@ function App() {
           <Route path = '/cv' element ={<Cv/>}/>
           {/* agregar más rutas aquí */}
         </Routes>
-  
     </Router>
        
     </>
