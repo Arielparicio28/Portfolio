@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
       title: "Audit App",
       description:
         "Manages audits with Power Apps, Dataverse, and Power Automate, offering data centralization, workflows, and dynamic reports.",
-      video: "Auditoria_demo.mp4", // Ruta al video de vista previa
+      video: "audit.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/Audit_PowerApps",
       orientation: "horizontal"
     },
