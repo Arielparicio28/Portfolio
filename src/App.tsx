@@ -8,6 +8,7 @@ import Microsoft_Component from './Pages/Microsoft_Component';
 import Cv from './Pages/Cv';
 
 
+
 function App() {
 
 
@@ -25,7 +26,7 @@ function App() {
           {/* agregar más rutas aquí */}
         </Routes>
     </Router>
-       
+  
     </>
   )
 }
