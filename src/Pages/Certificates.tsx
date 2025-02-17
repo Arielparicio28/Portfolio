@@ -7,6 +7,7 @@ const Certificates = () => {
     { title: "Google: Inteligencia Artificial y productividad", url: "IAcertificate.pdf" },
     { title: "Full-Stack 850h", url: "p7.pdf" },
     { title: "Pyhton", url: "python.pdf" },
+    { title: "Java Intermediate", url: "java_intermedio.jpg" },
     { title: "Java Basic", url: "java_basic.webp" },
     { title: "Javascript", url: "javascript_basic certificate.pdf" },
     { title: "MongoDB Transactions", url: "transaction.pdf" },

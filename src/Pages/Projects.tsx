@@ -25,6 +25,15 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
+      title: "Java API",
+      description:
+        "REST API with Spring Boot, Maven, SQL Server, global exception handling, Spring Boot Actuator, testing with JUnit and Mockito.",
+      video: "api_comprimido.mp4", // Ruta al video de vista previa
+      url: "https://github.com/Arielparicio28/API-Java----SQL-Server/blob/main/README.md",
+      orientation: "horizontal"
+    },
+    {
+      id: 4,
       title: "Memory Game",
       description:
         "It is a memory game developed with Nest.js ,React,Mongo DB following the MVC view controller mode",
@@ -33,7 +42,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 4,
+      id: 5,
       title: "Ranking of Repositories",
       description:
         "It is Project developed to improve the search for top-ranked repositories and programming languages.",
@@ -42,7 +51,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 5,
+      id: 6,
       title: "Recruiting App",
       description:
         "Simplifies hiring by tracking candidates, scheduling interviews, and automating tasks with Power Platform tools.",
@@ -51,7 +60,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 6,
+      id: 7,
       title: "Audit App",
       description:
         "Manages audits with Power Apps, Dataverse, and Power Automate, offering data centralization, workflows, and dynamic reports.",
@@ -60,7 +69,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 7,
+      id: 8,
       title: "CRM App",
       description:
         "Manages clients and contacts, tracks activities, and integrates with Microsoft 365 for collaboration using Power Apps and Dataverse.",
