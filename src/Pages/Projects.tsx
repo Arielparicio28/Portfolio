@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Jascas Web",
       description:
-        "A modern and responsive website developer with React, for the Italian-Argentine artist Jasmin Castrioty Avendaño",
+      "A modern and responsive website developer with React 18, for the Italian-Argentine artist Jasmin Castrioty Avendaño",
       video: "jascasweb.mp4", // Ruta al video de vista previa
       url: "https://jascas.netlify.app",
       orientation: "horizontal"
@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: "CRM F5",
       description:
-        "System developed with Nest.js, MongoDB, React to connect Factoría F5 with customers,optimize processes and improve profitability.",
+      "System developed with Nest.js 10.0 , MongoDB 6.0 , React 18 to connect Factoría F5 with customers,optimize processes and improve profitability.",
       video: "crm_demo.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/CRM-V1/blob/main/README.md",
       orientation: "horizontal"
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: "Java API",
       description:
-        "REST API with Spring Boot, Maven, SQL Server, global exception handling, Spring Boot Actuator, testing with JUnit and Mockito.",
+      "REST API with Java 21 Spring Boot 3.4.2, SQL Server, global exception handling, Spring Boot Actuator, testing with JUnit and Mockito.",
       video: "api_comprimido.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/API-Java----SQL-Server/blob/main/README.md",
       orientation: "horizontal"
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
       id: 4,
       title: "Memory Game",
       description:
-        "It is a memory game developed with Nest.js ,React,Mongo DB following the MVC view controller mode",
+      "It is a memory game developed with Nest.js ,React,Mongo DB following the MVC view controller mode",
       video: "game.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/Brascuba_Game",
       orientation: "horizontal"
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       id: 5,
       title: "Ranking of Repositories",
       description:
-        "It is Project developed to improve the search for top-ranked repositories and programming languages.",
+      "It is Project developed to improve the search for top-ranked repositories and programming languages.",
       video: "rank_repo.mp4", // Ruta al video de vista previa
       url: "https://rankingrepo.netlify.app/",
       orientation: "horizontal"
@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
       id: 6,
       title: "Recruiting App",
       description:
-        "Simplifies hiring by tracking candidates, scheduling interviews, and automating tasks with Power Platform tools.",
+      "Simplifies hiring by tracking candidates, scheduling interviews, and automating tasks with Power Platform tools.",
       video: "recruiting.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/Recruiting_PowerApps",
       orientation: "horizontal"
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
       id: 7,
       title: "Audit App",
       description:
-        "Manages audits with Power Apps, Dataverse, and Power Automate, offering data centralization, workflows, and dynamic reports.",
+      "Manages audits with Power Apps, Dataverse, and Power Automate, offering data centralization, workflows, and dynamic reports.",
       video: "audit.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/Audit_PowerApps",
       orientation: "horizontal"
@@ -72,9 +72,19 @@ const Projects: React.FC = () => {
       id: 8,
       title: "CRM App",
       description:
-        "Manages clients and contacts, tracks activities, and integrates with Microsoft 365 for collaboration using Power Apps and Dataverse.",
+      "Manages clients and contacts, tracks activities, and integrates with Microsoft 365 for collaboration using Power Apps and Dataverse.",
       video: "crm_demo1.mp4", // Ruta al video de vista previa
       url: "https://github.com/Arielparicio28/CRM-Power-Apps",
+      orientation: "horizontal"
+    },
+
+    {
+      id: 9,
+      title: "Real State App",
+      description:
+      "Preliminary version, developed with Java 21, SQL 8.0, Docker 28.0.4 , Rabbit MQ 3.0, SpringBoot 3.4.3, JWT 0.11.5.",
+      video: "preliminar.mp4", // Ruta al video de vista previa
+      url: "https://github.com/Arielparicio28/Realstate-Application/tree/main/Backend#readme",
       orientation: "horizontal"
     },
   ];

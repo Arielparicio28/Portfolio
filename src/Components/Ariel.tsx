@@ -8,18 +8,18 @@ import {
 } from "@nextui-org/react";
 
 export default function Ariel() {
-  const [audio] = useState(new Audio("sonido.mp3")); // Asegúrate de tener un archivo de sonido en tu proyecto
+  const [audio] = useState(new Audio("sound.mp3")); // Make sure you have a sound file in your project
   const [isHovering, setIsHovering] = useState(false);
 
-  // Función para manejar el mouse enter
+  // Function to handle mouse enter
   const handleMouseEnter = () => {
-    audio.play(); // Reproducir sonido
-    setIsHovering(true); // Mostrar el texto "About Me"
+    audio.play(); // Play sound
+    setIsHovering(true); // Display the "About Me" text
   };
 
-  // Función para manejar el mouse leave
+  // Function to handle mouse leave
   const handleMouseLeave = () => {
-    setIsHovering(false); // Ocultar el texto "About Me"
+    setIsHovering(false); // Hide the "About Me" text
   };
 
   return (
@@ -32,8 +32,8 @@ export default function Ariel() {
             className="transition-transform"
             src="/Kanban.jpg"
             alt="Ariel Aparicio"
-            onMouseEnter={handleMouseEnter} // Agregar el efecto de hover
-            onMouseLeave={handleMouseLeave} // Para cuando el mouse sale del avatar
+            onMouseEnter={handleMouseEnter} // Add hover effect
+            onMouseLeave={handleMouseLeave} // For when the mouse leaves the avatar
           />
         </DropdownTrigger>
         <DropdownMenu aria-label="Profile Actions" variant="faded">
@@ -42,21 +42,21 @@ export default function Ariel() {
             <section className="p-6 bg-white rounded-lg shadow-lg max-w-sm w-full text-center">
               <h2 className="text-xl font-semibold mb-4">About Me</h2>
               <p className="text-sm text-gray-700 mb-4">
-                ¡Hola! 👋 Soy Ariel Aparicio Alomá, un programador especializado en desarrollo web, aplicaciones móviles, IA, Power Platform y bases de datos.
+                Hello! 👋 I am Ariel Aparicio Alomá, a programmer specialized in web development, mobile applications, AI, Power Platform, and databases.
               </p>
               <p className="text-sm text-gray-700 mb-4">
-                Ayudo a empresas y emprendedores a convertir ideas en proyectos exitosos, ofreciendo soluciones robustas, escalables y optimizadas.
+                I help companies and entrepreneurs turn ideas into successful projects, offering robust, scalable, and optimized solutions.
               </p>
               <p className="text-sm text-gray-700 mb-4">
-                Mi enfoque:
+                My approach:
                 <ul className="list-inside list-disc text-left text-gray-700">
-                  <li>🔍 Calidad y eficiencia: Resultados que cumplen tus necesidades específicas.</li>
-                  <li>🤝 Comunicación clara: Trabajo alineado con tus expectativas en cada etapa.</li>
-                  <li>🚀 Innovación y adaptabilidad: Uso de las últimas tecnologías para garantizar excelencia.</li>
+                  <li>🔍 Quality and efficiency: Results that meet your specific needs.</li>
+                  <li>🤝 Clear communication: Work aligned with your expectations at every stage.</li>
+                  <li>🚀 Innovation and adaptability: Using the latest technologies to ensure excellence.</li>
                 </ul>
               </p>
               <p className="text-sm text-gray-700 mb-4">
-                📩 Contáctame y descubramos cómo puedo aportar valor a tu proyecto.
+                📩 Contact me and let's discover how I can add value to your project.
               </p>
 
               <div className="mt-4">
@@ -80,7 +80,7 @@ export default function Ariel() {
                   rel="noopener noreferrer"
                   className="font-semibold text-gray-700 hover:text-primary"
                 >
-                  Linkedin: Ariel Aparicio Aloma
+                  Linkedin: Ariel Aparicio Alomá
                 </a>
                 <br />
                 <a
@@ -97,7 +97,7 @@ export default function Ariel() {
         </DropdownMenu>
       </Dropdown>
 
-      {/* Mostrar "About Me" al pasar el mouse */}
+      {/* Display "About Me" on mouse hover */}
       {isHovering && (
         <div className="absolute right-10 transform -translate-x-1/2 bg-background text-primary text-sm p-2">
           <p className="text-center">Click Me!</p>

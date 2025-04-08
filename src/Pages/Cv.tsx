@@ -5,7 +5,7 @@ const Cv = () => {
   // Lista de cv y rutas a los archivos PDF
   const cv = [
     { title: "CV English Version", url: "cv_english.pdf" },
-    { title: "CV Spanish Version", url: "cv_spanish.pdf" },
+    { title: "CV Spanish Version", url: "last_v.pdf" },
   ];
 
   // Estado para manejar el cv actualmente seleccionado
