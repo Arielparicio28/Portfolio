@@ -34,6 +34,15 @@ const Projects: React.FC = () => {
     },
     {
       id: 4,
+      title: "Criminals Detection",
+      description:
+      "System developed with Python, OpenCV (DNN module + contrib LBPHFaceRecognizer), Caffe age/gender nets, Pillow, and NumPy.",
+      video: "criminals_detection.mp4", // Ruta al video de vista previa
+      url: "/",
+      orientation: "horizontal"
+    },
+    {
+      id: 5,
       title: "Memory Game",
       description:
       "It is a memory game developed with Nest.js ,React,Mongo DB following the MVC view controller mode",
@@ -42,7 +51,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 5,
+      id: 6,
       title: "Ranking of Repositories",
       description:
       "It is Project developed to improve the search for top-ranked repositories and programming languages.",
@@ -51,7 +60,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 6,
+      id: 7,
       title: "Recruiting App",
       description:
       "Simplifies hiring by tracking candidates, scheduling interviews, and automating tasks with Power Platform tools.",
@@ -60,7 +69,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 7,
+      id: 8,
       title: "Audit App",
       description:
       "Manages audits with Power Apps, Dataverse, and Power Automate, offering data centralization, workflows, and dynamic reports.",
@@ -69,7 +78,7 @@ const Projects: React.FC = () => {
       orientation: "horizontal"
     },
     {
-      id: 8,
+      id: 9,
       title: "CRM App",
       description:
       "Manages clients and contacts, tracks activities, and integrates with Microsoft 365 for collaboration using Power Apps and Dataverse.",
@@ -79,7 +88,7 @@ const Projects: React.FC = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       title: "Real State App",
       description:
       "Preliminary version, developed with Java 21, SQL 8.0, Docker 28.0.4 , Rabbit MQ 3.0, SpringBoot 3.4.3, JWT 0.11.5.",
