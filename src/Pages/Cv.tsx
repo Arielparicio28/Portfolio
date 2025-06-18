@@ -4,7 +4,7 @@ import { useState } from "react";
 const Cv = () => {
   // Lista de cv y rutas a los archivos PDF
   const cv = [
-    { title: "CV English Version", url: "cv_english.pdf" },
+    { title: "CV English Version", url: "English_Version_Java_Developer.pdf" },
     { title: "CV Spanish Version", url: "last_v.pdf" },
   ];
 
